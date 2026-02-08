@@ -1,0 +1,45 @@
+*,
+*:hover {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+input {
+    text-align: right;
+    width: 70%;
+}
+
+.calculator {
+    width: 300px;
+    border: 2px solid black;
+    margin: 5px auto;
+    padding: 10px;
+    ;
+}
+
+.items {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.numbers {
+    flex-basis: 33.33%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.operators {
+    flex-basis: 0;
+    flex-direction: column;
+}
+
+
+
+button {
+    padding: 5px;
+    margin: 5px auto;
+}
